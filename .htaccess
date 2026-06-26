@@ -1,5 +1,23 @@
+DirectoryIndex dist/index.html
+
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{REQUEST_URI} !^/dist/
-    RewriteRule ^(.*)$ /dist/$1 [L]
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve root from dist/index.html
+  RewriteRule ^$ dist/index.html [L]
+
+  # Serve asset files from dist/assets/
+  RewriteRule ^assets/(.*)$ dist/assets/$1 [L]
+
+  # Serve static files (svg, ico) from dist/
+  RewriteRule ^(favicon\.svg|icons\.svg|divinetek-icon\.svg)$ dist/$1 [L]
+
+  # Pass through existing dist files directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # All other routes (React Router paths) -> dist/index.html
+  RewriteRule ^(.+)$ dist/index.html [L]
 </IfModule>
