@@ -1,0 +1,400 @@
+.job-seekers-page {
+  overflow-x: hidden;
+}
+
+.job-hero {
+  background: linear-gradient(135deg, #060e1c 0%, #0a1628 50%, #1a2f50 100%);
+  padding: 150px 0 100px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.job-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 60% 40%, rgba(46,204,113,0.06) 0%, transparent 60%);
+}
+
+.job-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.job-hero h1 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  color: #ffffff;
+  letter-spacing: 0.18em;
+  margin-bottom: 20px;
+}
+
+.job-hero p {
+  color: #9aa5b8;
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin: 24px auto 32px;
+  line-height: 1.75;
+}
+
+.hero-divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #c9a84c, #e2c27a);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Value */
+.job-value {
+  padding: 88px 0;
+  background: #ffffff;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.benefit-card {
+  background: #f4f6fa;
+  border: 1px solid #e8ecf3;
+  border-radius: 12px;
+  padding: 36px 28px;
+  transition: all 0.3s;
+}
+
+.benefit-card:hover {
+  background: #ffffff;
+  border-color: rgba(201,168,76,0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(10,22,40,0.1);
+}
+
+.benefit-icon {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+}
+
+.benefit-card h3 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
+  color: #0a1628;
+  margin-bottom: 10px;
+}
+
+.benefit-card p {
+  color: #6b7a8f;
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+/* Job areas */
+.job-areas {
+  background: linear-gradient(135deg, #0a1628, #112240);
+  padding: 80px 0;
+}
+
+.job-areas .section-title {
+  text-align: center;
+}
+
+.job-areas .section-divider {
+  margin: 0 auto 48px;
+}
+
+.live-jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.live-job-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 12px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+
+.live-job-card:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(201,168,76,0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.job-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.job-cat {
+  color: #c9a84c;
+}
+
+.job-type {
+  color: #9aa5b8;
+  background: rgba(255,255,255,0.1);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.live-job-card h3 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.job-loc {
+  color: #c5cfe0;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+.live-job-card p {
+  color: #7a8a9e;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Process */
+.job-process {
+  padding: 88px 0;
+  background: #f4f6fa;
+}
+
+.job-steps {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.job-step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.job-step-num {
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(135deg, #1e5fa8, #2c7be5);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 20px rgba(44,123,229,0.35);
+  flex-shrink: 0;
+}
+
+.job-step-content h4 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: #0a1628;
+  margin-bottom: 10px;
+}
+
+.job-step-content p {
+  color: #6b7a8f;
+  font-size: 0.84rem;
+  line-height: 1.65;
+}
+
+.job-step-arrow {
+  position: absolute;
+  top: 16px;
+  right: -20px;
+  font-size: 1.2rem;
+  color: #c9a84c;
+  z-index: 1;
+}
+
+/* Resources */
+.job-resources {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.resource-card {
+  background: #f4f6fa;
+  border: 1px solid #e8ecf3;
+  border-radius: 12px;
+  padding: 32px;
+  transition: all 0.3s;
+}
+
+.resource-card:hover {
+  border-color: rgba(30,95,168,0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(10,22,40,0.1);
+  background: #ffffff;
+}
+
+.resource-tag {
+  display: inline-block;
+  background: rgba(30,95,168,0.1);
+  color: #1e5fa8;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.resource-card h3 {
+  font-size: 1rem;
+  color: #0a1628;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.resource-card p {
+  color: #6b7a8f;
+  font-size: 0.88rem;
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+
+.resource-cta {
+  color: #1e5fa8;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: gap 0.3s;
+}
+
+.resource-card:hover .resource-cta {
+  color: #c9a84c;
+}
+
+/* CTA */
+.job-cta {
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.job-cta .cta-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0a1628 0%, #1e5fa8 100%);
+}
+
+.job-cta .container {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.cta-text h2 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  color: #ffffff;
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+}
+
+.cta-text p {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.cta-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .roles-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .job-steps {
+    flex-wrap: wrap;
+  }
+
+  .job-step {
+    flex: 0 0 calc(50% - 24px);
+  }
+
+  .job-step-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-grid,
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .roles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-actions {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .roles-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .job-step {
+    flex: 0 0 100%;
+  }
+}

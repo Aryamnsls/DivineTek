@@ -1,0 +1,356 @@
+.clients-page {
+  overflow-x: hidden;
+}
+
+.clients-hero {
+  background: linear-gradient(135deg, #060e1c 0%, #0a1628 50%, #1a2f50 100%);
+  padding: 150px 0 100px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.clients-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 60%, rgba(201,168,76,0.08) 0%, transparent 60%);
+}
+
+.clients-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.clients-hero h1 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  color: #ffffff;
+  letter-spacing: 0.18em;
+  margin-bottom: 20px;
+}
+
+.clients-hero p {
+  color: #9aa5b8;
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin: 24px auto 32px;
+  line-height: 1.75;
+}
+
+.hero-divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #c9a84c, #e2c27a);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Why */
+.client-why {
+  padding: 88px 0;
+  background: #f4f6fa;
+}
+
+.client-why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.client-why-content p {
+  color: #4a5568;
+  font-size: 0.95rem;
+  line-height: 1.85;
+  margin-bottom: 16px;
+}
+
+.client-features {
+  list-style: none;
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.client-features li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: #1a202c;
+}
+
+.client-features li span {
+  color: #2c7be5;
+  font-weight: 700;
+  font-size: 0.85rem;
+  width: 20px;
+  height: 20px;
+  background: rgba(44,123,229,0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.client-why-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.client-stat {
+  background: #ffffff;
+  border: 1px solid #e8ecf3;
+  border-radius: 12px;
+  padding: 36px 24px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(10,22,40,0.06);
+  transition: all 0.3s;
+}
+
+.client-stat:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(10,22,40,0.12);
+  border-color: rgba(201,168,76,0.3);
+}
+
+.client-stat-value {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #c9a84c;
+  margin-bottom: 8px;
+}
+
+.client-stat-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b7a8f;
+}
+
+/* Services */
+.client-services {
+  padding: 88px 0;
+  background: #ffffff;
+}
+
+.section-sub {
+  color: #6b7a8f;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.service-item {
+  background: #f4f6fa;
+  border: 1px solid #e8ecf3;
+  border-radius: 12px;
+  padding: 36px 28px;
+  transition: all 0.3s;
+}
+
+.service-item:hover {
+  background: #ffffff;
+  border-color: rgba(30,95,168,0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(10,22,40,0.1);
+}
+
+.service-icon {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+}
+
+.service-item h3 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: #0a1628;
+  margin-bottom: 12px;
+}
+
+.service-item p {
+  color: #6b7a8f;
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+/* Tech areas */
+.tech-areas {
+  background: linear-gradient(135deg, #0a1628, #112240);
+  padding: 80px 0;
+}
+
+.tech-areas .section-title {
+  text-align: center;
+}
+
+.tech-areas .section-divider {
+  margin: 0 auto 48px;
+}
+
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.tech-tag {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(201,168,76,0.2);
+  color: #9aa5b8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  transition: all 0.3s;
+}
+
+.tech-tag:hover {
+  background: rgba(201,168,76,0.1);
+  border-color: #c9a84c;
+  color: #c9a84c;
+  transform: translateY(-2px);
+}
+
+/* Process */
+.client-process {
+  padding: 88px 0;
+  background: #f4f6fa;
+}
+
+.process-steps {
+  display: flex;
+  gap: 0;
+  align-items: flex-start;
+}
+
+.process-step {
+  flex: 1;
+  text-align: center;
+  padding: 0 16px;
+  position: relative;
+}
+
+.step-number {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(201,168,76,0.2);
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.step-line {
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(90deg, #c9a84c, #1e5fa8);
+  margin: 0 auto 16px;
+  border-radius: 2px;
+}
+
+.process-step h4 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: #0a1628;
+  margin-bottom: 10px;
+}
+
+.process-step p {
+  color: #6b7a8f;
+  font-size: 0.84rem;
+  line-height: 1.65;
+}
+
+/* CTA */
+.client-cta {
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.client-cta .cta-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #1e5fa8 0%, #0a1628 100%);
+}
+
+.client-cta .container {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-content {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  color: #ffffff;
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+}
+
+.cta-content p {
+  color: rgba(255,255,255,0.7);
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 36px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .client-why-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-steps {
+    flex-wrap: wrap;
+  }
+
+  .process-step {
+    flex: 0 0 calc(50% - 32px);
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .client-why-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .process-step {
+    flex: 0 0 100%;
+  }
+}
