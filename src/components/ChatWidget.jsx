@@ -5,7 +5,7 @@ export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState('');
   const [chatLog, setChatLog] = useState([
-    { sender: 'agent', text: 'Welcome to divineTEK! How can we help you today?' }
+    { sender: 'agent', text: 'Welcome to DivineTEK! How can we help you today?' }
   ]);
 
   const handleSend = (e) => {
@@ -29,7 +29,7 @@ export default function ChatWidget() {
             <div className="chat-header-info">
               <div className="chat-avatar">dT</div>
               <div>
-                <h4>divineTEK Support</h4>
+                <h4>DivineTEK Support</h4>
                 <span>Typically replies in a few minutes</span>
               </div>
             </div>

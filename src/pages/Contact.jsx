@@ -77,7 +77,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4>Phone</h4>
-                    <p><a href="tel:+13074600000">(307) 460-0000</a></p>
+                    <p><a href="tel:+13072758660">+1 307-275-8660</a></p>
                   </div>
                 </div>
 
@@ -118,7 +118,7 @@ export default function Contact() {
                 <div className="success-msg">
                   <div className="success-icon">✓</div>
                   <h3>Message Received!</h3>
-                  <p>Thank you for reaching out to divineTEK. A member of our team will be in touch with you within one business day.</p>
+                  <p>Thank you for reaching out to DivineTEK. A member of our team will be in touch with you within one business day.</p>
                   <button className="btn-primary" onClick={() => setSubmitted(false)}>Send Another Message</button>
                 </div>
               ) : (
@@ -187,7 +187,7 @@ export default function Contact() {
         <div className="map-placeholder">
           <div className="map-overlay">
             <div className="map-pin">📍</div>
-            <h3>divineTEK</h3>
+            <h3>DivineTEK</h3>
             <p>30 N Gould St Ste R, Sheridan, WY 82801</p>
             <a
               href="https://maps.google.com/?q=30+N+Gould+St+Ste+R+Sheridan+WY+82801"

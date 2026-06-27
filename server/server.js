@@ -135,7 +135,7 @@ app.post('/api/contact', (req, res) => {
     // Send email notification
     if (transporter) {
       let mailOptions = {
-        from: '"divineTEK System" <noreply@divinetek.com>',
+        from: '"DivineTEK System" <noreply@divinetek.com>',
         to: 'admin@divinetek.com',
         subject: `New Lead: ${type.toUpperCase()} - ${name}`,
         text: `New submission from ${name} (${email})\nPhone: ${phone}\nCompany: ${company}\nMessage: ${message}`

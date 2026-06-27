@@ -50,7 +50,7 @@ export default function Clients() {
           <span className="section-label">For Employers</span>
           <h1>CLIENTS</h1>
           <div className="hero-divider" />
-          <p>There's a reason divineTEK is a "preferred provider" for many leading companies — we've worked for it. We listen and deliver the right talent for the job.</p>
+          <p>There's a reason DivineTEK is a "preferred provider" for many leading companies — we've worked for it. We listen and deliver the right talent for the job.</p>
           <div className="hero-btns">
             <Link to="/contact" className="btn-primary">Request Talent</Link>
             <a href="#client-services" className="btn-outline">Our Services</a>
@@ -63,10 +63,10 @@ export default function Clients() {
         <div className="container">
           <div className="client-why-grid">
             <div className="client-why-content">
-              <span className="section-label">Why divineTEK</span>
+              <span className="section-label">Why DivineTEK</span>
               <h2 className="section-title">THE PREFERRED VENDOR ADVANTAGE</h2>
               <div className="section-divider left" />
-              <p>divineTEK has earned preferred vendor status with some of the world's most prestigious companies — and we didn't get there by accident. We got there by consistently delivering the right talent at the right time, every single time.</p>
+              <p>DivineTEK has earned preferred vendor status with some of the world's most prestigious companies — and we didn't get there by accident. We got there by consistently delivering the right talent at the right time, every single time.</p>
               <p>Our team of dedicated account executives learns your business inside and out. We understand the technologies you use, the projects you run, and the culture you've built — and we use that knowledge to make better matches.</p>
               <ul className="client-features">
                 <li><span>✓</span> Pre-screened, skills-tested candidates only</li>
@@ -165,7 +165,7 @@ export default function Clients() {
         <div className="container">
           <div className="cta-content">
             <h2>Ready to Find Your Next IT Professional?</h2>
-            <p>Contact our team today and experience why leading companies trust divineTEK as their preferred IT staffing partner.</p>
+            <p>Contact our team today and experience why leading companies trust DivineTEK as their preferred IT staffing partner.</p>
             <Link to="/contact" className="btn-gold">Request Talent Today</Link>
           </div>
         </div>

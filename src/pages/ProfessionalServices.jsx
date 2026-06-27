@@ -167,7 +167,7 @@ export default function ProfessionalServices() {
               <div className="shield-wrap">
                 <div className="shield">
                   <div className="shield-icon">🛡️</div>
-                  <div className="shield-text">divineTEK</div>
+                  <div className="shield-text">DivineTEK</div>
                   <div className="shield-sub">Protected</div>
                 </div>
                 <div className="threat-orbs">
@@ -190,7 +190,7 @@ export default function ProfessionalServices() {
             <p>Schedule a free consultation with one of our cybersecurity experts today. We'll assess your needs and recommend the best path forward.</p>
             <div className="cta-btns">
               <Link to="/contact" className="btn-gold">Schedule Free Consultation</Link>
-              <Link to="/about" className="btn-outline">Learn About divineTEK</Link>
+              <Link to="/about" className="btn-outline">Learn About DivineTEK</Link>
             </div>
           </div>
         </div>

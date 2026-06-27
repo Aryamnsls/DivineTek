@@ -204,7 +204,7 @@ export default function JobSeekers() {
           <div className="cta-inner">
             <div className="cta-text">
               <h2>Ready to Take Your IT Career to the Next Level?</h2>
-              <p>Join the thousands of IT professionals who have advanced their careers through divineTEK.</p>
+              <p>Join the thousands of IT professionals who have advanced their careers through DivineTEK.</p>
             </div>
             <div className="cta-actions">
               <Link to="/contact" className="btn-gold">Submit Your Resume</Link>

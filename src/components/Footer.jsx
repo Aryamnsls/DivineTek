@@ -10,12 +10,12 @@ export default function Footer() {
             {/* Brand */}
             <div className="footer-brand">
               <div className="footer-logo">
-                <span className="logo-divine">divine</span>
+                <span className="logo-divine">Divine</span>
                 <span className="logo-tek">TEK</span>
               </div>
               <p className="footer-tagline">TALENT · TECHNOLOGY · PARTNERS</p>
               <p className="footer-desc">
-                divineTEK is a premier Talent Services firm specializing in delivering technology solutions. 
+                DivineTEK is a premier Talent Services firm specializing in delivering technology solutions. 
                 For over 30 years, we've been connecting top IT talent with the world's leading companies.
               </p>
               <div className="footer-social">
@@ -65,7 +65,7 @@ export default function Footer() {
                   <span className="contact-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.06 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
                   </span>
-                  <a href="tel:+13074600000">(307) 460-0000</a>
+                  <a href="tel:+13072758660">+1 307-275-8660</a>
                 </li>
                 <li>
                   <span className="contact-icon">
@@ -88,7 +88,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-inner">
-            <p>© {new Date().getFullYear()} divineTEK. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} DivineTEK. All rights reserved.</p>
             <div className="footer-bottom-links">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>

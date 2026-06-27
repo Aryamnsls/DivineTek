@@ -6,7 +6,7 @@ const heroSlides = [
   {
     tagline: 'TALENT SOLUTIONS',
     title: 'Connecting Elite IT Talent\nWith Industry Leaders',
-    sub: 'divineTEK matches the best and brightest technology professionals with Fortune 100 & 500 companies, SMBs, and startups.',
+    sub: 'DivineTEK matches the best and brightest technology professionals with Fortune 100 & 500 companies, SMBs, and startups.',
   },
   {
     tagline: 'TECHNOLOGY DRIVEN',
@@ -16,7 +16,7 @@ const heroSlides = [
   {
     tagline: 'PARTNERING WITH YOU',
     title: 'Your Success Is\nOur Mission',
-    sub: 'For more than 30 years, divineTEK has been a trusted preferred provider partner for companies across every major industry.',
+    sub: 'For more than 30 years, DivineTEK has been a trusted preferred provider partner for companies across every major industry.',
   },
 ]
 
@@ -42,7 +42,7 @@ const services = [
     ),
     title: 'Employers',
     subtitle: '(Staffing Clients)',
-    desc: "There's a reason divineTEK is a preferred provider for many leading companies — we've worked for it. We listen and deliver the right talent for the job.",
+    desc: "There's a reason DivineTEK is a preferred provider for many leading companies — we've worked for it. We listen and deliver the right talent for the job.",
     link: '/clients',
     color: '#1e5fa8',
   },
@@ -81,22 +81,22 @@ const services = [
 
 const testimonials = [
   {
-    quote: "I have appreciated my association with divineTEK. Everyone with whom I have had contact has been helpful, friendly, professional and knowledgeable. I can't think of a better combination for my first contract job!",
+    quote: "I have appreciated my association with DivineTEK. Everyone with whom I have had contact has been helpful, friendly, professional and knowledgeable. I can't think of a better combination for my first contract job!",
     name: '– Melinda',
     role: 'Project Manager',
   },
   {
-    quote: "Our divineTEK consultant far exceeded my expectations with an amazing job on my project, taking on any and every task assigned as well as making key suggestions for improvement.",
+    quote: "Our DivineTEK consultant far exceeded my expectations with an amazing job on my project, taking on any and every task assigned as well as making key suggestions for improvement.",
     name: '– Hiring Manager',
     role: 'Multi-National Financial Services Firm',
   },
   {
-    quote: "My divineTEK recruiter is a top-notch professional in every way. I've been amazed at how quickly she could keep this position moving forward. I look forward to working with divineTEK again.",
+    quote: "My DivineTEK recruiter is a top-notch professional in every way. I've been amazed at how quickly she could keep this position moving forward. I look forward to working with DivineTEK again.",
     name: '– Cynthia',
     role: 'Program Manager, PMP',
   },
   {
-    quote: "Time is a premium in my organization. divineTEK gets our needs correct the first time and has consistently out-performed other vendors in coming to the table with the right resource.",
+    quote: "Time is a premium in my organization. DivineTEK gets our needs correct the first time and has consistently out-performed other vendors in coming to the table with the right resource.",
     name: '– Vice President',
     role: 'Fortune 100 Company',
   },
@@ -195,7 +195,7 @@ export default function Home() {
 
           <div className="hero-brand-block">
             <div className="brand-wordmark">
-              <span className="bw-divine">divine</span>
+              <span className="bw-divine">Divine</span>
               <span className="bw-tek">TEK</span>
             </div>
             <div className="brand-divider" />
@@ -224,7 +224,7 @@ export default function Home() {
           <div className="section-divider left" />
           <p className="about-strip-text">
             Technology shifts and improves every industry. Projects ebb and flow. Companies want shiny new apps. 
-            IT talent must be smart, agile, and ready to work when the moment strikes. That's why divineTEK lives 
+            IT talent must be smart, agile, and ready to work when the moment strikes. That's why DivineTEK lives 
             and breathes information technology and moves at the pace of our clients. For more than 30 years, we've been 
             matching the best and brightest IT talent with Fortune 100 and 500 companies, SMBs, and startups.
           </p>
@@ -286,7 +286,7 @@ export default function Home() {
                 — Steve Jobs
               </p>
               <p className="why-text">
-                divineTEK has lived by this principle since the day we first opened our doors in 1990. Excellence extends 
+                DivineTEK has lived by this principle since the day we first opened our doors in 1990. Excellence extends 
                 through every consultant, client, and interaction we have. Our No. 1 focus is to deliver the smartest 
                 and most dedicated IT talent that matches our clients' needs across all major industries and technologies.
               </p>

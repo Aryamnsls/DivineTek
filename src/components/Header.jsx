@@ -31,9 +31,9 @@ export default function Header() {
         <div className="container">
           <div className="header-top-inner">
             <div className="top-contact-info">
-              <a href="tel:+13074600000" className="top-link">
+              <a href="tel:+13072758660" className="top-link">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.06 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
-                (307) 460-0000
+                +1 307-275-8660
               </a>
               <a href="mailto:info@divinetek.com" className="top-link">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -54,10 +54,10 @@ export default function Header() {
           <div className="nav-inner">
             <Link to="/" className="logo-link">
               <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
-                <img src="/divinetek-icon.svg" alt="divineTEK logo" style={{width: '36px', height: '36px', borderRadius: '8px'}} />
+                <img src="/divinetek-icon.svg" alt="DivineTEK logo" style={{width: '36px', height: '36px', borderRadius: '8px'}} />
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                   <div className="logo">
-                    <span className="logo-divine">divine</span>
+                    <span className="logo-divine">Divine</span>
                     <span className="logo-tek">TEK</span>
                   </div>
                   <div className="logo-tagline">Talent · Technology · Partners</div>
